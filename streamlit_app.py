@@ -2,6 +2,8 @@
 import streamlit as st
 from snowflake.snowpark.functions import col
 
+streamlit.title("My Parents New Healthy Diner")
+
 helpful_links = [
     "https://docs.streamlit.io",
     "https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit",
