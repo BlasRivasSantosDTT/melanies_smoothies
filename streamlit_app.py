@@ -2,8 +2,6 @@
 import streamlit as st
 from snowflake.snowpark.functions import col
 
-streamlit.title("My Parents New Healthy Diner")
-
 helpful_links = [
     "https://docs.streamlit.io",
     "https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit",
@@ -12,7 +10,7 @@ helpful_links = [
 ]
 
 # Write directly to the app
-st.title("Customize your smoothie!! :balloon: :cup_with_straw:")
+st.title("My Parents New Healthy Diner")
 st.write("Choose the fruits you want in your custom Smoothie :smile:")
 
 name_on_order = st.text_input('Name on smoothie')
